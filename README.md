@@ -21,7 +21,6 @@ This fork extends the official Qwen3-TTS Gradio demo with automatic reference au
 ```bash
 pip install faster-whisper soundfile
 ```
-```
 
 <br>
 
