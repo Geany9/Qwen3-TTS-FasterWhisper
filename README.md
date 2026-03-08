@@ -12,15 +12,17 @@ This fork extends the official Qwen3-TTS Gradio demo with automatic reference au
 - **Device and compute type options** — CUDA / CPU with float16, int8_float16, int8, float32
 
 ### Modified
-- `demo.py` — added FasterWhisper UI block and transcription logic to the base model voice clone tab
+- `qwen_tts/cli/demo.py` — added FasterWhisper UI block and transcription logic to the base model voice clone tab
 
 ### Screenshot
 ![FasterWhisper integration](assets/screenshot.png)
 
 ### Dependencies
 ```bash
-pip install faster-whisper soundfile
+pip install faster-whisper
 ```
+
+# Original README
 
 <br>
 
